@@ -2,7 +2,7 @@
 name: steam-inventory-analyzer
 description: 查询和分析 Steam 玩家库存、游戏库、成就、好友、在线人数与游戏新闻。用户提到 Steam, 库存, 饰品, CS2 库存, Dota2 库存, appid, Steam 好友, Steam 成就, Steam 游戏库 时使用。
 when_to_use: 用户要查 Steam 玩家资料、库存、游戏时长、最近在玩什么、好友列表、成就或某个游戏的在线人数时，优先使用 steam MCP 工具。
-metadata: {"akashic": {"always": false}}
+metadata: {"roxy": {"always": false}}
 ---
 
 # Steam Inventory Analyzer
