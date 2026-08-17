@@ -1,6 +1,6 @@
 # steam-mcp
 
-Akashic Steam plugin. It bundles:
+Roxy Steam plugin. It bundles:
 
 - `steam` MCP server
 - `steam-inventory-analyzer` skill
@@ -8,17 +8,17 @@ Akashic Steam plugin. It bundles:
 ## Install
 
 ```bash
-python main.py plugin-install --source https://github.com/akashic-plugins/steam-mcp --marketplace github
+python main.py plugin-install --source https://github.com/roxy-plugins/steam-mcp --marketplace github
 ```
 
-Restart Akashic after install.
+Roxy 会在插件 generation 发布后热重载能力，不需要重启。
 
 ## Data directory
 
 Runtime data lives in:
 
 ```text
-~/.akashic-plugin/data/steam-<marketplace>/
+~/.roxy-plugin/data/steam-<marketplace>/
 ```
 
 Common files:
